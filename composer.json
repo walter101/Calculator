@@ -1,26 +1,27 @@
 {
-  "name": "your-brand-name/your-project",
+  "name": "calculator/walter",
   "type": "library",
-  "description": "Your package description goes here",
+  "description": "Test to create a package",
   "keywords": ["relevant","tags","go","here"],
-  "homepage": "https://yourcompany.com",
+  "homepage": "https://google.com",
   "license": "MIT",
   "authors": [
     {
-      "name": "Jordi Boggiano",
-      "email": "j.boggiano@seld.be",
-      "homepage": "http://seld.be",
+      "name": "Walter Pothof",
+      "email": "walterpothof@gmail.com",
+      "homepage": "http://google.nl",
       "role": "Developer"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Mikestreety\\": "src/"
+      "Calculator\\": "src/"
     }
   },
   "repositories":[
     {
       "type": "vcs",
-      "url": "git@gitlab.com:mikestreety/utils.git"
+      "url": "git@github.com:somerepo/utils.git"
     }
+  ]
 }
